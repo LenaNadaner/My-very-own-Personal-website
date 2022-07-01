@@ -1,0 +1,69 @@
+/* STYLE SECTIONING TAGS */
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body {
+ background-color: #e6e9f2; 
+}
+
+/* STYLE TEXT */
+
+
+  h1 {
+  
+    color: #458080;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+
+#intro
+  {
+    text-align:center;
+    color:#003046;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2em;
+  }
+
+
+/* STYLE IMAGES */
+img
+  {
+    max-width: 50%; 
+    max-height: 50%;
+    border-radius: 30%; 
+    text-align: center;
+    margin-bottom: 2em;
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* STYLE NAV BAR */ 
+
+
+ul {
+  list-style-type: none;
+  background-color: #003046;
+  overflow: hidden;
+  padding: 1em;
+}
+
+
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #cyan;
+}
